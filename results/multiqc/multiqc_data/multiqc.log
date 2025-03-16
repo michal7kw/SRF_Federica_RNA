@@ -1,0 +1,7 @@
+[2025-02-25 09:27:46,709] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.27 now available!
+[2025-02-25 09:27:46,710] multiqc.core.file_search                           [INFO   ]  Search path: /beegfs/scratch/ric.broccoli/kubacki.michal/SRF_Federica_RNA/results/fastqc
+[2025-02-25 09:27:46,710] multiqc.core.file_search                           [INFO   ]  Search path: /beegfs/scratch/ric.broccoli/kubacki.michal/SRF_Federica_RNA/results/star
+[2025-02-25 09:27:46,710] multiqc.core.file_search                           [INFO   ]  Search path: /beegfs/scratch/ric.broccoli/kubacki.michal/SRF_Federica_RNA/results/counts
+[2025-02-25 09:27:54,149] multiqc.modules.featurecounts.featurecounts        [INFO   ]  Found 12 reports
+[2025-02-25 09:27:56,114] multiqc.modules.star.star                          [INFO   ]  Found 12 reports
+[2025-02-25 09:27:56,904] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 48 reports

@@ -1,0 +1,6 @@
+.snakemake/
+Archive/
+logs/
+results/trimmed/
+results/star/
+results/fastqc/

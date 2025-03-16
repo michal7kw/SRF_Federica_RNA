@@ -1,0 +1,15 @@
+Status	results/star/1/1_Aligned.sortedByCoord.out.bam	results/star/2/2_Aligned.sortedByCoord.out.bam	results/star/3/3_Aligned.sortedByCoord.out.bam	results/star/4/4_Aligned.sortedByCoord.out.bam	results/star/5/5_Aligned.sortedByCoord.out.bam	results/star/6/6_Aligned.sortedByCoord.out.bam	results/star/7/7_Aligned.sortedByCoord.out.bam	results/star/8/8_Aligned.sortedByCoord.out.bam	results/star/9/9_Aligned.sortedByCoord.out.bam	results/star/10/10_Aligned.sortedByCoord.out.bam	results/star/11/11_Aligned.sortedByCoord.out.bam	results/star/12/12_Aligned.sortedByCoord.out.bam
+Assigned	23072067	23156807	26003419	24355703	26544689	26901163	20815250	26622817	22411039	17077572	25504771	27564228
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	7426431	6262724	6778963	6342209	7788385	7099296	6011821	6462788	5286577	5124480	6990016	7086147
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	20743186	13006476	15137815	16826370	12706416	14584445	15423029	16806379	17730424	26411806	17845102	15297070
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	3947007	4104346	4129441	3705042	4416133	4286246	3244826	4212985	3130630	2836538	4046662	4216342
