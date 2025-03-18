@@ -3,12 +3,12 @@ from os.path import join
 # Configuration
 CONFIG = {
     'genome_dir': '/beegfs/scratch/ric.broccoli/kubacki.michal/SRF_H2AK119Ub_cross_V5/COMMON_DATA/genome_star',  # Directory for STAR genome index
-    'genome_fasta': '/beegfs/scratch/ric.broccoli/kubacki.michal/SRF_H2AK119Ub_cross_V5/COMMON_DATA/genome/Homo_sapiens.GRCh38.dna.primary_assembly.fa',
     'gtf': '/beegfs/scratch/ric.broccoli/kubacki.michal/SRF_H2AK119Ub_cross_V5/COMMON_DATA/gencode.v43.basic.annotation.nochr.gtf',
     'max_threads': 32,  # Maximum threads for heavy processes
     'medium_threads': 16,  # Medium thread count for moderate processes
     'light_threads': 4,  # Light thread count for simple processes
-    'fastq_dir': '/beegfs/scratch/ric.broccoli/kubacki.michal/Azenta_projects/90-1127887346/00_fastq'  # Directory with input fastq files
+    'fastq_dir': '/beegfs/scratch/ric.broccoli/kubacki.michal/Azenta_projects/90-1127887346/00_fastq',  # Directory with input fastq files
+    'adapter_file': '/beegfs/scratch/ric.broccoli/kubacki.michal/SRF_Federica_RNA/TruSeq3-PE.fa'  # Full path to adapter file
 }
 
 # Get sample names from fastq files (1-12)
@@ -78,7 +78,7 @@ rule trimmomatic:
             {input.r1} {input.r2} \
             {output.r1} {output.r1_unpaired} \
             {output.r2} {output.r2_unpaired} \
-            ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:keepBothReads \
+            ILLUMINACLIP:{CONFIG[adapter_file]}:2:30:10:2:keepBothReads \
             LEADING:3 TRAILING:3 \
             SLIDINGWINDOW:4:15 \
             MINLEN:36 2> {log}
