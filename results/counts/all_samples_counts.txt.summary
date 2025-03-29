@@ -1,5 +1,5 @@
 Status	results/star/1/1_Aligned.sortedByCoord.out.bam	results/star/2/2_Aligned.sortedByCoord.out.bam	results/star/3/3_Aligned.sortedByCoord.out.bam	results/star/4/4_Aligned.sortedByCoord.out.bam	results/star/5/5_Aligned.sortedByCoord.out.bam	results/star/6/6_Aligned.sortedByCoord.out.bam	results/star/7/7_Aligned.sortedByCoord.out.bam	results/star/8/8_Aligned.sortedByCoord.out.bam	results/star/9/9_Aligned.sortedByCoord.out.bam	results/star/10/10_Aligned.sortedByCoord.out.bam	results/star/11/11_Aligned.sortedByCoord.out.bam	results/star/12/12_Aligned.sortedByCoord.out.bam
-Assigned	23072067	23156807	26003419	24355703	26544689	26901163	20815250	26622817	22411039	17077572	25504771	27564228
+Assigned	18923503	18032090	21779673	20244828	21028978	22072075	14265440	22277429	17907128	13958528	18701305	22700301
 Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0
 Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0
 Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0
@@ -7,9 +7,9 @@ Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0
 Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0
 Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0
 Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0
-Unassigned_MultiMapping	7426431	6262724	6778963	6342209	7788385	7099296	6011821	6462788	5286577	5124480	6990016	7086147
+Unassigned_MultiMapping	4812166	3770520	4307732	4100915	4675376	4557613	3054952	4216233	3402449	3325435	3868086	4486180
 Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0
 Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0
-Unassigned_NoFeatures	20743186	13006476	15137815	16826370	12706416	14584445	15423029	16806379	17730424	26411806	17845102	15297070
+Unassigned_NoFeatures	17600873	10456321	13112494	14501308	10495144	12424499	11106190	14547967	14613777	22311830	13718366	12994925
 Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0
-Unassigned_Ambiguity	3947007	4104346	4129441	3705042	4416133	4286246	3244826	4212985	3130630	2836538	4046662	4216342
+Unassigned_Ambiguity	3146246	3204954	3280118	2934610	3316323	3355304	2143130	3398711	2451953	2312571	2876067	3328137
